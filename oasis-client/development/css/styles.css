@@ -1,0 +1,155 @@
+body { margin: 0px auto; background: black; }
+canvas {position: absolute; top: 0px; left: 0px;}
+#auth-form {
+  position: absolute;
+  background: white;
+  width: 280px;
+  height: 350px;
+  left: 50%;
+  top: 50%;
+  margin-top: -175px;
+  margin-left: -140px;
+}
+#auth-bg {
+  position: absolute;
+  width: 100%; 
+  height: 100%;
+  background: black;
+  text-align: center;
+}
+#btn-login {
+  padding: 5px;
+  border: 2px solid black;
+  font-size: 20px;
+  background: #72f9a4;
+}
+#input-nickname {
+  border: 2px solid black;
+  padding: 5px;
+  text-align: center;
+  font-size: 16px;
+}
+
+  .window-bg {
+    display: none;
+    background: rgba(211, 202, 202, 0.63);
+    position: absolute;
+  }
+
+  #zoom-bg {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: none;
+  }
+
+  #zoom-bg button {
+    width: 48px;
+    border-radius: 100%;
+    font-size: 40px;
+    font-weight: 900;
+  }
+
+  #inventory-bg {
+    bottom: 0px;
+    right: 0px;
+  }
+
+  #globalchat-bg {
+      bottom: 0px;
+      left: 0px;
+  }
+
+  #equips-bg {
+    width: 40px;
+    right: 0px;
+    top: 0px;
+    background: #ccc;
+    position: absolute;
+  }
+
+  #globalchat-messages {
+      height: 150px;
+      overflow: auto;
+  }
+
+  #globalchat-toggle-btn {
+      padding: 3px;
+      width: 25px;
+  }
+
+  .window-header {
+    background: #545454; color: white; padding: 4px;
+  }
+
+  .inventory-item {
+    border: solid 1px black;
+    width: 32px;
+    margin: 2px;
+  }
+
+  #inventory {
+    height: 300px;
+    overflow: auto;
+  }
+
+  #btn-open-crafting {
+    position: absolute;
+    top: 55px;
+    left: 10px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-image: url('./../sprites/ui/craft-btn.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: none;
+  }
+
+  #btn-craft-item {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 100%;
+    background-image: url('./../sprites/ui/craft-btn.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  #craft-window-bg {
+    background: rgba(51, 51, 51, 0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+
+  #craft-window {
+    width: 300px;
+    height: 500px;
+    left: 10%;
+    top: 50%;
+    background: white;
+    position: absolute;
+    margin-top: -250px;
+    overflow: auto;
+  }
+
+  #craft-window:hover {
+    z-index: 10;
+  }
+
+  #table-crafting {
+    width: 100%;
+  }
+  
+  #craft-exp-bg {
+    height: 30px;
+    width: 100%;
+  }
+
+  #craft-exp {
+    background: green;
+    width: 0%;
+    height: 100%;
+  }

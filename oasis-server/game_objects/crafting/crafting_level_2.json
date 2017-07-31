@@ -1,0 +1,32 @@
+[
+  {
+    "id" : 25,
+    "exp" : 3,
+    "required" : [
+      { "item_id" : 19, "amount" : 3}
+    ]
+  },
+  {
+      "id" : 7,
+      "exp" : 10,
+      "required" : [
+        { "item_id" : 20, "amount" : 1}
+      ]
+  },
+  {
+    "id" : 4,
+    "exp" : 25,
+    "required" : [
+      { "item_id" : 19, "amount" : 5},
+      { "item_id" : 20, "amount" : 1}
+    ]
+  },
+  {
+    "id" : 6,
+    "exp" : 25,
+    "required" : [
+      { "item_id" : 19, "amount" : 5},
+      { "item_id" : 20, "amount" : 1}
+    ]
+  }
+]
